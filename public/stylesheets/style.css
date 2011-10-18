@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #CFF;
+}
+
+#main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0px;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    background-color:#FFF;
+}
+
+#header h1{
+    margin:0px;
+    padding:20px;
+    font-size:64px;
+    background-color:#666;
+    margin:0px;
+    color:#FFF;
+}
+
+#input{
+    padding: 1em;
+    padding-bottom: 0px;
+}
+
+#text{
+    border: 2px solid black;
+    width:100%;
+    font-size:2em;
+}
+
+#postlist h2 {
+    padding-bottom: 0px;
+    padding-right:12px;
+    padding-left: 12px;
+    padding-top: 12px;
+    margin-top: 12px;
+    font-size: 32px;
+    color: #030;
+    border-top:1px dotted black;
+}
+
+ul#list {
+    list-style-type:None;
+}
+
+#list li{
+    margin: 16px;
+}
+
+#list li a.button{
+    padding: 3px;
+    color: #FFF;
+    background-color:#6C6;
+}
+
+.notoverflow a.rate{
+    background-color:#2CC;
+    color: #EFF;
+    padding: 6px;
+    border: solid 1px #4DD;
+}
+
+.overflow a.rate{
+    background-color:#FC3;
+    color: #FFE;
+    padding: 6px;
+    border: solid 1px #FD4;
+}
+
+li.overflow span {
+    padding: 6px;
+    margin-right: 6px;
+    border: solid 1px #FDD;
+    background-color:#FCC;
+}
+
+.overflow span{
+    color: #600;
+}
+
+#string_length{
+    color:#CCC;
+    margin:0px;
+    padding: 0px;
+}
